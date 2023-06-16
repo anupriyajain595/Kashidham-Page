@@ -883,6 +883,19 @@ a {
     background-color: black;
     border-radius: 0px 20px 0 20px;
 }
+.order-btn {
+    padding: 5px 15px;
+    background-color: gray;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
 
 /* service section styling */
 .service-section {
@@ -1752,6 +1765,11 @@ ul i {
         margin: 50px auto;
         height: 190px;
       }
+     .order-btn {
+        padding: 0 15px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
 }
 
 @media(max-width : 420px) {
